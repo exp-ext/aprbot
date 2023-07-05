@@ -1,3 +1,5 @@
+<p align="center"><img src="https://github.com/exp-ext/aprbot/blob/main/static/generated_image.jpeg" width="300" /></p>
+
 ### Task 1
 
 Use English SpaCy lib, find all tokens with only digits and all proper nouns (PROPN, aka, personal nouns ) in the text, count it and output it right-aligned in the HTML.
@@ -25,7 +27,7 @@ Remember that it will be much easier to set up SpaCy on Colab rather than on a W
 Активация окружения и установка зависимостей:
 
 ```bash
-python3.11 -m venv venv && source venv/bin/activate && python -m pip install --upgrade pip
+python3 -m venv venv && source venv/bin/activate && python -m pip install --upgrade pip
 
 python -m pip install -r requirements.txt
 
